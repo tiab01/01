@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tales of Tia</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong"> 
+
+     <style>
+        @media only screen and (max-width: 600px) {
+            .nav-link{
+    font-size: 18px;
+  }
+        }
+
+        @media only screen and (min-width: 601px) {
+  .nav-link{
+    font-size: 19px;
+  }
+}
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: var(--bg-color);
+}
+
+.left-col {
+  width: 45vw;
+  height: 100%;
+  background-image: url("/flower.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-col {
+  background: var(--bg-color);
+  width: 50vw;
+  height: 100vh;
+  padding: 5rem 3.5rem;
+}
+
+
+
+     </style>
+    </head>
+
+    <body style="background-color: rgb(241, 241, 241);">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid d-flex flex-row-reverse">
+            <i class="bi bi-pen"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16" id="sticker">
+              <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001m-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708z"/>
+            </svg>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+                <li class="nav-item">
+                  <a class="nav-link active aria-current=page" href="index.html">Home</a>
+               </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html#posts">Posts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="about.html">About Page</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="about.html#me">About Me </a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active" href="contact.html">
+                    Contact
+                  </a>
+                </li>  
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+
+
+<div class="contact-container">
+  <div class="left-col">
+  </div>
+  <div class="right-col">
+    
+    <h1>Keep in Touch</h1>
+    <p> </p>
+    
+
+  </div>
+</div>
+
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          <p style="color:black"> © 2024 Tales of Tia</p>  
+         </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
